@@ -1,0 +1,36 @@
+name: freela_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  intl: ^0.20.2
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  sqflite: ^2.4.2
+  supabase_flutter: ^2.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Logo.jpeg
+    - assets/Logo1.png
+    - assets/diarista.png
+    - assets/eletricista.png
+    - assets/encanador.png
+    - assets/mecanico.png
+    - assets/pedreiro.png
+    - assets/reparos.png
+    - assets/todos.png
